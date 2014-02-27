@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 		};
 		
 		
-		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000, 0,locationListener);  
+		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000, 0,locationListener);  //定时刷新
 	    /*Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 	    
 	    String latitude = Double.toString(location.getLatitude());//经度
