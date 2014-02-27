@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="59dp"
         android:layout_marginTop="122dp"
-        android:text=""
+        android:text="ls"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
